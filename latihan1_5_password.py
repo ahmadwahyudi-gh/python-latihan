@@ -9,5 +9,5 @@ while True:
     elif times>0:
         print(f"Password Salah! Anda punya {times} kesempatan tersisa")
     else:
-        print("Gagal maneh! Silahkan keluar!")
+        print("Login Gagal! Silahkan keluar!")
         break
