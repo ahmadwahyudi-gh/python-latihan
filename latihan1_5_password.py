@@ -1,7 +1,7 @@
-password, times ="ahmadwahyudi", 3
+username, password, times ="ahmad","ahmadwahyudi", 3
 while True:
     times-=1
-    txtUser=input("Masukkan Username: ")
+    print("Username: ",username)
     txtPass=input("Masukkan Password: ")
     if txtPass==password:
         print("Login Berhasil")
